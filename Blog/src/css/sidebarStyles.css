@@ -1,0 +1,24 @@
+/*Sidebar styles*/
+aside{
+    background-color: #7d6875;
+    color: #34123d;
+    grid-area: sd;
+    border: 1px solid #2e1735;
+    text-align: center;
+    padding: 8px;
+}
+
+/*Search container styles*/
+.searchCont{
+    padding-bottom: 15px;
+}
+
+/*Serach text box styles*/
+.search{
+    width: 80%;
+}
+
+/*Most featured post container styles*/
+.mostFeatCont{
+    padding-top: 5px;
+}

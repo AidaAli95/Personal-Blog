@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aidana's Blog</title>
+    <meta name="description" content="Personal blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <div  class="container">
+
+        <!--The navigation bar-->
+        <nav>
+
+            <!--My blog name-->
+            <a href="index.html">
+                <img class="logo" src="./assets/img/logo.png"/>
+                <!--<h1 class="blogName">Aidana</h1>-->
+            </a>
+            <!--The navigation menu-->
+            <div class="navmenu">
+                <a href="index.html">Home</a>
+                <!--Posts categories-->
+                <ul class="category"><a href="">Categories<img class="arrow" src="./assets/img/icons/down-arrow.png"/></a>
+                    <div class="catContent">
+                        <li><a href="">Programming</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="">Planet</a></li>
+                    </div>
+                </ul>
+                <a class="about" href="">About</a>
+                <!--Subscribe fake link-->
+                <button class="subBtn">Subscribe</button>   
+            </div>  
+        </nav>
+
+        <!--The side bar-->
+        <aside>
+            <div class="searchCont">
+                <h4>Looking for a certain post?</h4>
+                <input class="search" type="text" placeholder="Type here">
+                </br></br>
+                <!--Fake search button-->
+                <button class="searchBtn">Search</button>
+            </div>
+            <hr>
+            <!--Most featured posts links-->
+            <div class="mostFeatCont">
+                <h4>Most Featured</h4>
+                <a href="./src/html/post.html">Salalah Beaches</a>
+                <br/>
+                <a href="">Programming with Python</a>
+                <br/>
+                <a href="">Aglonema</a>
+            </div>
+        </aside>
+
+        <!--Blog posts in content-->
+        <div class="content">
+            <div class="posts">
+
+                <!--1st post with a valid link-->
+                <div class="post1 box">
+                    <!--Image was captured by me-->
+                    <img class="postImg" src="./assets/img/beach.jpg" alt="Beach"/>
+                    <p>
+                        <button class="catBtn">Travel</button>
+                        </br></br>
+                        <strong>Salalah Beaches</strong>
+                        </br>
+                        Have you been to Salalah? It is one of the most beautiful
+                        <a href="./src/html/post.html">Read more...</a>
+                    </p>
+                </div>
+
+                <!--2nd post with fake link-->
+                <div class="post2 box">
+                    <!--Image was ginerated by AI-->
+                    <img class="postImg" src="./assets/img/python.jpg" alt="Python"/>
+                    <p>
+                        <button class="catBtn">Programming</button>
+                        </br></br>
+                        <strong>Programming with Python</strong>
+                        </br>
+                        Have you ever used <i>Python</i> to make an effiecent program?
+                        <a href="">Read more...</a>
+                    </p>
+                </div>
+
+                <!--3rd post with fake link-->
+                <div class="post3 box">
+                    <!--Image was captured by my relative-->
+                    <img class="postImg" src="./assets/img/aglo.jpg" alt="Aglonema"/>
+                    <p>
+                        <button class="catBtn">Plant</button>
+                        </br></br>
+                        <strong>Aglaonema</strong>
+                        </br>
+                        Every single creature in this world need some care. Here
+                        <a href="./src/html/post.html">Read more...</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--The footer-->
+        <footer>
+            <p class="copyright">
+                &copy;2024 Aida
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

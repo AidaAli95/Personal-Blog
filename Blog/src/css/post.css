@@ -1,0 +1,93 @@
+/*Post page side bar styles*/
+.sidebar{
+    color: #2e1735;
+    text-align: center;
+}
+
+/*Avatar photo styles*/
+.avatar{
+    width: 50%;
+    border-radius: 50px;
+}
+
+/*Job title styles*/
+.job{
+    color: #9f8ea3;
+    font-size: small;
+}
+
+/*Social media icons styles*/
+.icon{
+    color: #2e1735;
+}
+
+/*Content div styles*/
+.content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Post title styles*/
+.pTitle{
+    color: #2e1735;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+/*Post category and date styles*/
+.pCat, .pDate{
+    color: #9f8ea3;
+    font-size: x-small;
+    
+}
+
+/*Post Image*/
+.postPageImg{
+    width: 100%;
+    height: 25%;
+}
+
+/*Image caption*/
+.caption{
+    color: #67207c;
+    font-size: smaller;
+    text-align: center;
+}
+
+/*Post content styles*/
+.pCont{
+    padding-top: 10px;
+}
+
+/*Blockquote styles*/
+.slhQuote{
+    margin-left: 10px;
+}
+
+/*Beaches list styles*/
+.beaches{
+    list-style: circle;
+}
+
+/*Home page linke styles*/
+.homeLink{
+    font-size: smaller;
+    color: #86788a;
+}
+
+/*Form contents (textboxes and textarea) styles*/
+.rName, .rEmail, .replyTxt{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*Old posts header styles*/
+.seeOld{
+    margin-bottom: 5px;
+}
+
+/*Old posts links styles*/
+.oldPostLink{
+    font-size: smaller;
+    color: #67207c;
+}

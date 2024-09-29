@@ -1,0 +1,119 @@
+@import url("post.css");
+@import url("navbarStyles.css");
+@import url("sidebarStyles.css");
+@import url("contentStyles.css");
+
+/*Links styles*/
+a{
+    text-decoration: none;
+    color: #bfb1b0;
+}
+
+/*Buttons styles*/
+button{
+    border-radius: 5px;
+}
+
+/*Body styles*/
+body{
+    background-color: #bfb1b0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Container div styles*/
+.container{
+    background-color: #bfb1b0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 10fr 0.5fr;
+    grid-template-areas:"hd hd hd hd"
+                        "sd cnt cnt cnt"
+                        "ft ft ft ft";
+}
+
+/*Footer div styles*/
+footer{
+    background-color: #42214b;
+    color: #bfb1b0;
+    grid-area: ft;
+    border: 1px solid #2e1735;
+    text-align: center;
+}
+
+/*Small devices styles*/
+@media(max-width:500px){
+    /*Container div styles*/
+    .container{
+        background-color: #bfb1b0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 5fr 0.25fr;
+        grid-template-areas:"hd"
+                            "sd"
+                            "cnt"
+                            "ft";
+    }
+    /*The navigation bar*/
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*The navigation menu*/
+    .navmenu{
+        flex-direction: column;
+    }
+
+    /*Posts category*/
+    .category{
+        padding: 0;
+    }
+
+    /*Clicking on category list*/
+    .category:hover .catContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*About styles*/
+    .about{
+        padding-bottom: 10px;
+    }
+
+    /*Posts card*/
+    .posts{
+        display: inline;
+    }
+
+    .avatar{
+        width: 25%;
+    }
+}
+
+/*Large devices styles*/
+@media(min-width:901px){
+    /*Body styles*/
+    body{
+        font-size: x-large;
+    }
+
+    /*Buttons styles*/
+    button{
+        font-size: large;
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .search, .rName, .rEmail, .replyTxt{
+        font-size: large;
+    }
+}
+
+/*Meduim devices styles*/
+@media(min-width:600) and (max-width:900){
+    body{
+        font-size: 18px;
+    }
+}

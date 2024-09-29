@@ -1,0 +1,60 @@
+/*Navbar styles*/
+nav{
+    background-color: #42214b;
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #2e1735;
+}
+
+/*The logo image styles*/
+.logo{
+    width:170px;
+}
+
+/*Navmenu styles*/
+.navmenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+/*Category list styles*/
+.category{
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+}
+
+/*The arrow image styles*/
+.arrow{
+    width:10px;
+}
+
+/*Category list items styles*/
+.catContent{
+    background-color: #42214b;
+    display: none;
+    position: absolute;
+    list-style: none;
+    min-width: 80px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+/*Category styles while hovering with the mouse*/
+.category:hover .catContent{
+    display: block;
+}
+
+/*About link styles*/
+.about{
+    color: #bfb1b0;
+    padding-right: 15px;
+}
